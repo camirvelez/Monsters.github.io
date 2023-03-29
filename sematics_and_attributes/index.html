@@ -4,34 +4,63 @@
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Document</title>
-        <link href="css/style.html" rel="stylesheet"
+        <title>semantics & attributes</title>
+        <link href="css/style.css" rel="stylesheet">
 
     </head>
     <body>
-        <header>
+
+        <!-- Header -->
+        <header id="header"></header>
             <h1>My semantics site</h1>
-            <nav>
-                <a href="#">page 1</a>
-                <a href="#">page 2</a>
-                <a href="#">page 3</a>
-                <a href="#">page 4</a>
-            </nav>
-        </header>
-        <main>
+            <nav id="nav"></nav>
+                <a href="link">page 1</a>
+                <a href="link">page 2</a>
+                <a href="link">page 3</a>
+                <a href="link">page 4</a>
+            
+        <!-- Main -->
+        <main id="main">
             <h3>Donec consectetur dui ipsum</h3>
             <div class="card">
                 <h4>
-                    curabitur id lectus eu velit
+                    curabitur id lectus eu vulputate liguia
                 </h4>
                 <hr>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur esse dicta sequi unde ullam iste? Eveniet incidunt assumenda vero, aspernatur laboriosam possimus quidem voluptatum non! Sunt consectetur provident laudantium minima!
                 </p>
             </div>
-            <div class="card"></div>
-            <div clss="card"></div>
+            <div class="card">
+                <h4>
+                    duis eu vulputate ligula.
+                </h4>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sapiente, ipsa magni aliquid blanditiis quam! Repellat dolore autem inventore veritatis minima itaque unde maiores distinctio, fugiat, eos atque perspiciatis. Quas.
+                </p>
+            </div>
+            <div class="card">
+                <div id="image container">
+                    <img id="card image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtimjLU8UzynV1PIG2d6S_k9UsMWyww1XTd7fGAOUckA&usqp=CAU&ec=48665701">
+                    <p id="caption">photo by Paris Macaron</p>
+                </div>
+                <h4 class="small_heading">
+                    Etiam erat est
+                </h4>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dicta quis ea ipsam eos error repellendus, blanditiis nisi vel saepe sequi ratione in, excepturi ut nihil asperiores, unde velit vero.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, similique est provident recusandae necessitatibus dolores quo, consectetur explicabo quibusdam natus nisi tempora at reiciendis modi aperiam. Accusantium quos pariatur adipisci?
+                </p>
+                <hr id="clear">
+            </div>
         </main>
-        <footer></footer>
+        <footer id="footer">
+            <p>&copy; 2023 - F.I.R.S.T. Institute</p>
+            <p>GDWD 105 - Web Design & Development</p>
+        </footer>
     </body>
 </html>
