@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: forestgreen;
+    background-color:aqua;
     position: sticky;
     top: 0px;
 }
@@ -17,7 +17,7 @@ nav ul {
 nav ul li {
     font-size: 24px;
     display: inline-block;
-    padding: 24px;
+    padding: 24px
 }
 
 p {
