@@ -1,7 +1,3 @@
-body {
-    margin: 0px;
-}
-
 nav {
     background-color: antiquewhite;
     padding: 20px;
@@ -9,16 +5,31 @@ nav {
 
 ul {
     display: flex;
-    justify-content: space_between;
+    justify-content: flex-end;
     padding: 0px;
-    max-width: 800px;
-    margin: 0px auto;
 }
 
-ul li {
-    margin: 10px;
+li {
+    display: inline;
+    padding: 10px;
 }
 
-ul li {
-    margin:10px;
+#home {
+    margin-right: auto;
+}
+
+.dropdown_container {
+    position: relative;
+}
+
+.dropdown_menu {
+    background-color:azure;
+    position: absolute;
+    flex-direction: column;
+    width: 100px
+}
+
+.dropdown_container:hover .dropdown_menu {
+    opacity: 1;
+    visibility: visible;
 }
