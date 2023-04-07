@@ -1,5 +1,5 @@
 nav {
-    background-color: antiquewhite;
+    background-color: rgb(247, 211, 164);
     padding: 20px;
 }
 
@@ -26,10 +26,24 @@ li {
     background-color:azure;
     position: absolute;
     flex-direction: column;
-    width: 100px
+    width: 100px;
+    left: 0px;
+    top: 75px;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        top 0.5s,
 }
 
 .dropdown_container:hover .dropdown_menu {
     opacity: 1;
     visibility: visible;
+    top: 100px;
+}
+
+footer {
+    background-color: rgb(247, 211, 164);
+    padding: 20px;
 }
