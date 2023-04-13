@@ -218,6 +218,45 @@ footer ul {
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
+.Carousel_container {
+    max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.Carousel_container {
+    height: 300px;
+}
+
 #gallery_container {
     text-align: center;
 }
@@ -274,6 +313,18 @@ footer ul {
 #gallery_5 img {
     width: 100px;
     margin-bottom: 24px;
+}
+
+#gallery_6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery_6 img {
+    height: 200px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
 }
 
 /****************************************************************************
