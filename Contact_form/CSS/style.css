@@ -1,0 +1,74 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header_area ."
+        ". main_area .";
+}
+
+header {
+    grid-area: header_area;
+    text-align: center;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: rgb(181, 243, 222);
+}
+form {
+    background-color: rgb(213, 252, 252);
+    border: 2px solind #cccccc;
+    padding: 36px;
+}
+
+select {
+    margin-bottom: 24px;
+    width: 100px;
+}
+
+h1,
+h5 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+div label {
+    display: block;
+    margin-bottom: 14px;
+}
+
+select,
+input,
+textarea {
+    padding: 11px;
+    border: 2px solid cornsilk;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: aqua;
+}
+
+input[type=checkbox] {
+    background-color: antiquewhite;
+    padding: 24px;
+    border: 5px solid aquamarine;
+}
+
+input[type=date] {
+    padding: 12px;
+    border: 3px solid bisque;
+    font-size: 12px;
+}

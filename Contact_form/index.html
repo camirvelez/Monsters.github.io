@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="CSS/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+       <section id="grid_container">
+        <header>
+            <h1>Contact us</h1>
+            <h5>
+                Got an order? we'd love
+                to hear from you. Send us a 
+                message and we'll respond as soon 
+                as possible.
+            </h5>
+        </header>
+        <main>
+            <form>
+                <div>
+                    <label>What can we help you with?</label>
+                    <select name="service">
+                        <option value="none" disabled selected>
+                            - select what we can help with -
+                        </option>
+                        <option value="reservations">Reservations</option>
+                        <option value="special orders">Special orders</option>
+                        <option value="suggestions">Suggestions</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>First/Last Name</label>
+                    <input type="text" name="first/last name">
+                </div>
+
+                <div>
+                    <label>Email</label>  
+                    <input type="email" name="email_address">
+                </div>
+
+                <div>
+                    <label>Phone number</label>
+                    <input type="text" name="phone number">
+                </div>
+                
+                <div>
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                 
+                <div>
+                    <h3>What are you interested in ordering?</h3>
+                    <p>Anything you want you name it!</p>
+                </div>
+
+                <fieldset>
+                    <legend>Check what you like to oder</legend>
+                </fieldset>
+                <div>
+                    <input type="checkbox" id="Flan_checkbox" name="vehicle_1" value="Flan_checkbox">
+                    <label for="flan">Flan</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="empanadillas_checkbox" name="vehicle_1" value="Empanadillas_checkbox">
+                    <label for="empanadillas">Empanadillas</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tres_leche_checkbox" name="vehicle_1" value="Tres_leche_checkbox">
+                    <label for="tres leche">Tres leche</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tembleque_checkbox" name="vehicle_1" value="Tembleque_checkbox">
+                    <label for="temblque">Tembleque</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="coquito_checkbox" name="vehicle_1" value="Coquitos_checkbox">
+                    <label for="coquito">Coquito</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sangrias_checkbox" name="vehicle_1" value="sangrias_checkbox">
+                    <label for="sangrias">Sangrias</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sepical_reccuest_checkbox" name="vehicle_1" value="Special_reccuest_checkbox">
+                    <label for="special reccuest">Special reccuest</label>
+                </div>
+                
+                <h3>Let us know for the special event!</h3>
+                <p>Include the date... We can't wait to make this special order for you!</p>
+                <div>
+                    <label for="Date_id">Date of the event</label>
+                    <input type="date" id="date_id" name="birthdate">
+                    <!-- <input type="datetime-local" id="date_id" name="birthdate"> -->
+                </div>
+
+                <div>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </main>
+       </section>
+    </body>
+</html>
