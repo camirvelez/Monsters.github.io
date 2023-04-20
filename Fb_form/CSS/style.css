@@ -1,0 +1,56 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header_area ."
+        ". main_area .";
+}
+
+header {
+    grid-area: header_area;
+    text-align: center;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: rgb(219, 237, 253);
+    padding: 35px;
+}
+
+form {
+    background-color: rgb(214, 255, 255);
+    padding: 3px solid gainsboro;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: sans-serif;
+    color: rgb(40, 186, 244);
+    padding: 20px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.radio {
+    display: flex;
+    border: 2px solid lightgrey;
+}
+
+input[type=button] {
+   border: 5px solid rgb(172, 243, 172);
+   border: 4px;
+   padding: 10px;
+}
+
+input[type=submit] {
+    background-color: rgb(169, 241, 169);
+}
