@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+}
+
+#hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-image: url("../Images/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;;
+}
+
+p {
+    text-align: center;
+    color: white;
+    text-decoration-color: greenyellow;
+}
+
+p {
+    color: greenyellow;
+}
+
+input[type=button] {
+    border: 5px solid rgb(105, 254, 105);
+   border: 4px;
+   padding: 10px;
+}
+
+input[type=GetThemBoth] {
+    background: rgb(146, 250, 146);
+    color: #0c0c0c;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
